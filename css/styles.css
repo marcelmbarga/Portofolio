@@ -164,7 +164,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: #17172C;
   text-decoration: underline;
 }
 
@@ -420,8 +420,8 @@ h6, .h6 {
 }
 
 hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -10100,8 +10100,10 @@ p.lead {
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
+/*#bd5d38
+*/
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color:  #17172C;
 }
 
 .dev-icons {
