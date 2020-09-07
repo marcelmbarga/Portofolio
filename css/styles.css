@@ -157,9 +157,9 @@ sub {
 sup {
   top: -0.5em;
 }
-
+/*#bd5d38*/
 a {
-  color: #bd5d38;
+  color: #17172C;
   text-decoration: none;
   background-color: transparent;
 }
@@ -6095,9 +6095,10 @@ a.close.disabled {
 .align-text-top {
   vertical-align: text-top !important;
 }
+/*#bd5d38*/
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #17172C !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9797,9 +9798,9 @@ button.bg-dark:focus {
 .text-white {
   color: #fff !important;
 }
-
+/*#bd5d38*/
 .text-primary {
-  color: #bd5d38 !important;
+  color: #17172C !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
