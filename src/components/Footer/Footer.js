@@ -9,14 +9,18 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
+          <LinkTitle>Address</LinkTitle>
+          <LinkItem>30019, Sejong-si, Korea</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
-            contact@jsmastery.com
+          <LinkItem href="mailto:marcelmbarga@gmail.com">
+            marcelmbarga@gmail.com
           </LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Call</LinkTitle>
+          <LinkItem >+821029651218</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
@@ -24,14 +28,11 @@ const Footer = () => {
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://github.com/marcelmbarga">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.linkedin.com/in/marcel-mbarga-1a453193/">
             <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from "next/link";
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
@@ -10,12 +10,14 @@ const Hero = (props) => (
       <LeftSection>
         <SectionTitle main center>
           Welcome To <br />
-          My Personal Portfolio
+          Marcel Mbarga's Portfolio
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+          A Frontend Developer living in Sejong, Korea🇰🇷 .
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Link href="#about">
+          <Button onClick={props.handleClick}>Contact me!</Button>
+        </Link>
       </LeftSection>
     </Section>
   </>

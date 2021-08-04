@@ -35,7 +35,7 @@ export const LinkItem = styled.a`
 	}
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 8px;
+		font-size: 10px;
 		line-height: 14px;
 		margin-bottom: 8px;
 		display: flex;
@@ -65,7 +65,7 @@ export const CompanyContainer = styled.div`
 	align-items:baseline;
 	flex-wrap: wrap;
 	margin-right: auto;
-	
+
 
 	@media ${props => props.theme.breakpoints.md}{
 		flex-direction: column;
